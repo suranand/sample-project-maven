@@ -100,6 +100,7 @@ public class Application {
         log.info("New value stored in remote smart contract: " + contract.greet().send());
 
         // Events enable us to log specific events happening during the execution of our smart
+        // Events enable us to log specific events happening during the execution of our smart
         // contract to the blockchain. Index events cannot be logged in their entirety.
         // For Strings and arrays, the hash of values is provided, not the original value.
         // For further information, refer to https://docs.web3j.io/filters.html#filters-and-events
